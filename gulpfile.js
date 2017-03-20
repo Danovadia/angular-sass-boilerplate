@@ -8,7 +8,7 @@ gulp.task('default', function() {
 
 gulp.task('serve', ['sass'], function() {
   bs.init({
-    proxy: "http://localhost/demos/start/index.html"
+    proxy: "CHANGE TO PROJECT DIRECTORY/index.html"
   });
 
   gulp.watch("./public/scss/*.scss", ['sass']);
