@@ -6,5 +6,6 @@ Simple boilerplate using AngularJS 1.6, SCSS, Gulp and Browsersync ready to work
 Just:
 ```
 npm install
-bower install 
+bower install
+grunt serve
 ```
